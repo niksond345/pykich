@@ -13,8 +13,6 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) {
         primaryStage.setTitle("Simple Web Browser");
-        primaryStage.setScene("d");
-        primaryStage.setScene("g");
         BorderPane root = new BorderPane();
         Scene scene = new Scene(root, 800, 600);
 
